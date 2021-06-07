@@ -1,0 +1,44 @@
+
+###
+GET http://127.0.0.1:8095/rest/users/all
+content-type:application/json;charset=UTF-8
+locale:zh
+
+###
+
+###
+GET http://127.0.0.1:8095/rest/users/getById?id=2
+content-type:application/json;charset=UTF-8
+locale:zh
+
+###
+
+###
+GET http://127.0.0.1:8095/rest/users/getById?id=5
+content-type:application/json;charset=UTF-8
+locale:zh
+
+###
+
+
+###
+GET http://127.0.0.1:8095/rest/users/updateById?id=1&name=张三
+content-type:application/json;charset=UTF-8
+locale:zh
+
+###
+
+###
+GET http://127.0.0.1:8095/rest/users/findForPage?pageNum=1&pageSize=2
+content-type:application/json;charset=UTF-8
+locale:zh
+
+###
+###
+GET http://127.0.0.1:8095/rest/users/findForPage?pageNum=1&pageSize=2&name=Sam
+content-type:application/json;charset=UTF-8
+locale:zh
+
+###
+
+
