@@ -42,7 +42,7 @@ public class UsersController2 {
 
         Query queryTemp = new Query();
         queryTemp.addCriteria(Criteria.where("_id").is(id));
-        mongoTemplate.remove(queryTemp, "users");
+        mongoTemplate.remove(queryTemp, Users.class);
 
         return "ok";
     }
